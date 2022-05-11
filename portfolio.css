@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 2px solid white;
+    background-color: black;
+}
+
+#bloco1 {
+    flex: 1;
+    z-index: 1;
+   
+}
+
+#foto {
+    position: absolute;
+    border-radius: 300px;
+    z-index: 3;
+    top: 160px;
+    left: 200px;
+}
+
+#bloco2 {
+    flex: 15;
+    color: white;
+    z-index: 4;
+}
+
+#hello, #rafael{
+    color: white;
+    font-family: monospace, sans-serif;
+    font-size: 100px;
+    letter-spacing: 10px;
+    margin: 10px;
+}
+
+#ponto {
+    color: rgb(255, 0, 0);
+    font-family: serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 120px;
+    margin: 7px;
+}
+    
+#iam {
+    color: rgb(189, 171, 171);
+    font-family: monospace, sans-serif;
+    font-size: 70px;
+    letter-spacing: -3px;
+    margin: 10px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    vertical-align: middle; 
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto; 
+    border-bottom: 3px dashed black;
+    background-color: rgb(141, 134, 134);
+}
+
+.navUl {
+    flex: 25;
+    margin-left: 13%;
+    padding: 18px 60px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 18px 60px;
+}
+
+.botao1 {
+    color: rgb(197, 197, 197);
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: monospace, sans-serif;
+    margin: 18px 60px;
+    padding: 18px 60px;
+}
+
+.botao1:hover {
+    color: rgb(255, 255, 255);
+    font-family: monospace, sans-serif;
+    font-size: 30px;
+    margin: 18px 60px;
+    padding: 18px 60px;
+}
+
+.botao2 {
+    color: rgb(197, 197, 197);
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: monospace, sans-serif;
+    margin: 18px 60px;
+    padding: 18px 60px;
+}
+
+.botao2:hover {
+    color: rgb(255, 255, 255);
+    font-family: monospace, sans-serif;
+    font-size: 30px;
+    margin: 18px 60px;
+    padding: 18px 60px;
+}
+
+.botao3 {
+    color: rgb(197, 197, 197);
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: monospace, sans-serif;
+    margin: 18px 60px;
+    padding: 18px 60px;
+}
+
+.botao3:hover {
+    color: rgb(255, 255, 255);
+    font-family: monospace, sans-serif;
+    font-size: 30px;
+    margin: 18px 60px;
+    padding: 18px 60px;
+}
+
+.botao4 {
+    color: rgb(197, 197, 197);
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: monospace, sans-serif;
+    margin: 18px 60px;
+    padding: 18px 60px;
+}
+
+.botao4:hover {
+    color: rgb(255, 255, 255);
+    font-family: monospace, sans-serif;
+    font-size: 30px;
+    margin: 18px 60px;
+    padding: 18px 60px;
+}
+
+main {
+    text-align: center;
+    
+}
+
+h2 {
+    font-size: 30px;
+    padding: 25px;
+    margin-top: 30px ;
+}
+
+h2:hover {
+    font-size: 30px;
+    padding: 25px;
+    margin-top: 30px ;
+    color: rgb(122, 122, 122);
+}
+
+p {
+    margin: 15px;
+}
+
+.sobreMim {
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: monospace;
+    margin: 30px ;
+}
+
+h3 {
+    color: rgb(197, 197, 197);
+    font-size: 30px;
+    padding: 25px;
+   
+}
+
+h3:hover {
+    font-size: 30px;
+    padding: 25px;
+    margin-top: 30px ;
+    color: rgb(255, 255, 255);
+}
+
+#portfolio1{
+   margin-bottom: 50px;
+}
+
+footer {
+    background-color: rgb(141, 134, 134);
+    text-align: center;
+    border-top: 3px dashed black;
+}
+
+#links {
+    display: inline-block;
+}
+
+.linkedin {
+    width: 75px;
+    margin: 15px
+}
+
+.gitHub {
+    width: 55px;
+    height: 42px;
+    margin: 15px
+}
+
+footer h3 {
+    font-family: 'Montez', sans-serif;
+}
