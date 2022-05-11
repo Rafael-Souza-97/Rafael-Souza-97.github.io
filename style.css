@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Montserrat+Alternates&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -179,18 +181,27 @@ p {
     margin: 30px ;
 }
 
-h3 {
-    color: rgb(197, 197, 197);
+h2 {
+    color: rgb(0, 0, 0);
     font-size: 30px;
     padding: 25px;
-   
+    font-family: 'Montez', sans-serif;
 }
 
-h3:hover {
+h2:hover {
     font-size: 30px;
     padding: 25px;
     margin-top: 30px ;
-    color: rgb(255, 255, 255);
+    color: rgb(141, 134, 134);
+    font-family: 'Montez', sans-serif;
+}
+
+footer h2:hover {
+    font-size: 30px;
+    padding: 25px;
+    margin-top: 30px ;
+    color: rgb(70, 70, 70);
+    font-family: 'Montez', sans-serif;
 }
 
 #portfolio1{
@@ -201,7 +212,9 @@ footer {
     background-color: rgb(141, 134, 134);
     text-align: center;
     border-top: 3px dashed black;
+    
 }
+
 
 #links {
     display: inline-block;
@@ -209,15 +222,11 @@ footer {
 
 .linkedin {
     width: 75px;
-    margin: 15px
+    margin: 15px;
 }
 
 .gitHub {
     width: 55px;
     height: 42px;
-    margin: 15px
-}
-
-footer h3 {
-    font-family: 'Montez', sans-serif;
+    margin: 15px;
 }
